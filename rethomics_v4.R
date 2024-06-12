@@ -11,6 +11,12 @@
   if (!require(sleepr, quietly=T)) {install.packages('sleepr');library(sleepr)}
   if (!require(zeitgebr, quietly=T)) {install.packages('zeitgebr');library(zeitgebr)}
   if (!require(svDialogs, quietly=T)) {install.packages('svDialogs');library(svDialogs)}
+  if (!require(stringr, quietly=T)) {install.packages('stringr');library(stringr)}
+  if (!require(rstatix, quietly=T)) {install.packages('rstatix');library(rstatix)}
+  if (!require(ggpubr, quietly=T)) {install.packages('ggpubr');library(ggpubr)}
+  if (!require(ggprism, quietly=T)) {install.packages('ggprism');library(ggprism)}
+  if (!require(forcats, quietly=T)) {install.packages('forcats');library(forcats)}
+  
 }
 
 ######### Choose experimental folder ########
